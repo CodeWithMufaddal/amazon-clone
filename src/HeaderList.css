@@ -1,0 +1,33 @@
+*{
+   font-weight: inherit;
+}
+
+.HeaderList {
+   color: white;
+   background-color: #232f3e;
+   font-weight: 500;
+
+   height: 40px;
+   display: flex;
+   align-items: center;
+}
+
+.HeaderList__List {
+   display: flex;
+   width: 700px;
+   justify-content: space-between;
+   list-style: none;
+}
+
+li {
+   /* padding: 5px; */
+   display: flex;
+   align-items: center;
+   box-sizing: border-box;
+   padding: 5px;
+   margin: 5px;
+}
+
+li:hover{
+   border: 1px solid white;
+}
